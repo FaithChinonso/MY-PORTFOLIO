@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 3rem;
+  width: 100%;
+  font-size: 1rem;
+  position: relative;
+}
+.header_picture {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+}
+.header_link {
+  color: #fff;
+  text-decoration: none;
+}
+.header_link:hover {
+  color: #ff6347;
+  text-decoration: underline;
+}
