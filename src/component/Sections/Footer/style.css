@@ -20,6 +20,9 @@
   text-decoration: none;
   color: #ff6347;
 }
+.footer-icon {
+  color: #fff;
+}
 
 .footer-list {
   display: flex;

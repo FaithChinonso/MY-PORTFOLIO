@@ -1,4 +1,13 @@
-import "./Footer.css";
+import "./style.css";
+// import { fontawesomeicons }
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGithub,
+  faLinkedin,
+  faCodepen,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
+import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
@@ -22,7 +31,7 @@ const Footer = () => {
             href="https://github.com/FaithChinonso"
             className="footer-links"
           >
-            GitHub
+            <FontAwesomeIcon icon={faGithub} />
           </a>
         </li>
         <li>
@@ -31,7 +40,7 @@ const Footer = () => {
             href="https://www.linkedin.com/in/faith-umunnakwe-095905161"
             className="footer-links"
           >
-            LinkedIn
+            <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </li>
         <li>
@@ -40,7 +49,7 @@ const Footer = () => {
             href="https://codepen.io/faithchinonso"
             className="footer-links"
           >
-            CodePen
+            <FontAwesomeIcon icon={faCodepen} />
           </a>
         </li>
         <li>
@@ -49,7 +58,7 @@ const Footer = () => {
             href="https://www.instagram.com/faychiny"
             className="footer-links"
           >
-            Instagram
+            <FontAwesomeIcon icon={faInstagram} />
           </a>
         </li>
       </ul>

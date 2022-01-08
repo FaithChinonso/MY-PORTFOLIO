@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import "./FrontPage.css";
-import Footer from "../Sections/Footer";
-import Header from "../Sections/Header";
-import ProjectPage from "./ProjectPage";
+import React from "react";
+import "./style.css";
+import Footer from "../../Sections/Footer";
+import Header from "../../Sections/Header";
+import ProjectPage from "../Projects";
 
-const FrontPage = () => {
+const HomePage = () => {
   // const openProjectsHandler = () => {
   //   return <ProjectPage />;
   // };
@@ -19,14 +19,10 @@ const FrontPage = () => {
             obtain a challenging IT internship
           </h1>
         </div>
-
-        {/* <a href="" className="profile-body_link">
-          Projects
-        </a> */}
       </div>
       <Footer />
     </div>
   );
 };
 
-export default FrontPage;
+export default HomePage;
