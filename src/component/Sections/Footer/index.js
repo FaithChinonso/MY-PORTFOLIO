@@ -7,7 +7,6 @@ import {
   faCodepen,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
@@ -28,6 +27,7 @@ const Footer = () => {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://github.com/FaithChinonso"
             className="footer-links"
           >
@@ -37,6 +37,7 @@ const Footer = () => {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://www.linkedin.com/in/faith-umunnakwe-095905161"
             className="footer-links"
           >
@@ -46,6 +47,7 @@ const Footer = () => {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://codepen.io/faithchinonso"
             className="footer-links"
           >
@@ -55,6 +57,7 @@ const Footer = () => {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://www.instagram.com/faychiny"
             className="footer-links"
           >

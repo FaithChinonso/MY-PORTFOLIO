@@ -1,22 +1,35 @@
 .header {
+  position: relative;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  gap: 3rem;
+  justify-content: space-between;
   width: 100%;
   font-size: 1rem;
-  position: relative;
+  padding: 2rem;
 }
-.header_picture {
-  display: inline-block;
-  position: absolute;
-  left: 0;
+.header-picture {
+  height: 5rem;
+  width: 5.25rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+  background-color: #ff6347;
 }
-.header_link {
-  color: #fff;
-  text-decoration: none;
+.header-img {
+  border-radius: 50%;
+  height: 5rem;
 }
-.header_link:hover {
-  color: #ff6347;
-  text-decoration: underline;
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 3rem;
+  }
+  .header_picture {
+    bottom: 0;
+    left: 50%;
+  }
 }

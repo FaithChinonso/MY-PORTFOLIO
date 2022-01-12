@@ -1,0 +1,65 @@
+.skillSlider {
+  width: 80vw;
+  height: auto;
+  margin: 2rem auto;
+
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  overflow: hidden;
+  background-color: transparent;
+  border-radius: 5px;
+  box-shadow: 1px 2px 5px 3px rgba(255, 99, 71, 0.4);
+}
+.skillSlide {
+  width: 15%;
+  height: 20rem;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  box-shadow: 0px 1px 2px 2px rgba(255, 99, 71, 0.1);
+}
+.skill-heading {
+  font-size: 2rem;
+  color: #fff;
+}
+.skill-links {
+  text-decoration: none;
+  color: #fff;
+}
+.skill-links:hover {
+  color: #ff6347;
+  text-decoration: underline;
+}
+.skill-icon {
+  font-size: 5rem;
+}
+@media (max-width: 900px) {
+  .skillSlide {
+    width: 40%;
+  }
+}
+@media (max-width: 600px) {
+  .skillSlider {
+    justify-content: center;
+    gap: 1rem;
+  }
+}
+@media (max-width: 300px) {
+  .skillSlider {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .skillSlide {
+    width: 100%;
+  }
+}

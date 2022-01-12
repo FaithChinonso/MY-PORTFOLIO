@@ -1,1 +1,25 @@
-
+.navigation {
+  display: flex;
+  gap: 2rem;
+}
+.navigation-list {
+  list-style-type: none;
+}
+.navigation-link {
+  text-decoration: none;
+  color: #fff;
+}
+.navigation-link:hover {
+  color: #ff6347;
+  text-decoration: underline;
+}
+@media (max-width: 600px) {
+  .navigation {
+    gap: 1rem;
+  }
+}
+@media (max-width: 400px) {
+  .navigation-link {
+    font-size: 0.75rem;
+  }
+}

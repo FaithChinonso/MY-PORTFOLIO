@@ -5,12 +5,14 @@ import App from "./App";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
 import ProjectPage from "./component/Pages/Projects";
+import SkillPage from "./component/Pages/Skills";
 
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/projects" element={<ProjectPage />} />
+      <Route path="/skills" element={<SkillPage />} />
     </Routes>
   </BrowserRouter>,
 

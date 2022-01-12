@@ -5,7 +5,14 @@ const Navbar = () => {
   return (
     <ul className="navigation">
       <li className="navigation-list">
-        <Link to="/skills">Skills</Link>
+        <Link to="/" className="navigation-link">
+          Home
+        </Link>
+      </li>
+      <li className="navigation-list">
+        <Link to="/skills" className="navigation-link">
+          Skills
+        </Link>
       </li>
       <li className="navigation-list">
         <Link to="/projects" className="navigation-link">
@@ -15,8 +22,9 @@ const Navbar = () => {
       <li className="navigation-list">
         <a
           target="_blank"
+          rel="noreferrer"
           href="http://faithumunnakweresume.epizy.com/"
-          className="header_link"
+          className="navigation-link"
         >
           Resume
         </a>
@@ -26,9 +34,9 @@ const Navbar = () => {
           target="_blank"
           rel="noreferrer"
           href="mailto:faithuchinonso@gmail.com"
-          className="header_link"
+          className="navigation-link"
         >
-          Send a Mail
+          Mail
         </a>
       </li>
     </ul>
