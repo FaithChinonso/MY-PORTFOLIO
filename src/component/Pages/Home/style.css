@@ -6,7 +6,7 @@
 .profile {
   min-height: 100vh;
   width: 100vw;
-  padding: 2rem;
+  padding: 1rem 2rem;
 
   display: flex;
   flex-direction: column;
@@ -54,14 +54,15 @@
   .profile {
     height: auto;
     padding: 1rem;
-    font-size: 45%;
-    justify-content: space-around;
+
+    justify-content: space-between;
   }
   .profile-body_text {
     width: 85%;
   }
   .profile-body_text h1 {
     font-size: 1.5rem;
+    line-height: 2;
   }
 }
 @media (max-width: 400px) {
