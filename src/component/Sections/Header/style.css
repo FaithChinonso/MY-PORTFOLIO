@@ -5,7 +5,7 @@
   justify-content: space-between;
   width: 100%;
   font-size: 1rem;
-  padding: 2rem;
+  padding-bottom: 2rem;
 }
 .header-picture {
   height: 5rem;
@@ -24,12 +24,16 @@
 }
 @media (max-width: 600px) {
   .header {
-    flex-direction: column-reverse;
-    justify-content: center;
-    gap: 3rem;
+    padding-bottom: 1rem;
+    align-items: flex-start;
   }
-  .header_picture {
-    bottom: 0;
-    left: 50%;
+
+  .header-img {
+    border-radius: 50%;
+    height: 3rem;
+  }
+  .header-picture {
+    height: 3rem;
+    width: 3.25rem;
   }
 }

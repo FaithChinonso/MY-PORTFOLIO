@@ -2,7 +2,6 @@ import React from "react";
 import "./style.css";
 import Footer from "../../Sections/Footer";
 import Header from "../../Sections/Header";
-import ProjectPage from "../Projects";
 
 const HomePage = () => {
   // const openProjectsHandler = () => {
