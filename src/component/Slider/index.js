@@ -36,12 +36,12 @@ const Slider = () => {
       link2: "https://faithchinonso.github.io/Scitylana/",
     },
     {
-      img: "/img/form.png",
+      img: "/img/piggame.png",
       alt: "form",
-      heading: "FORM VALIDATION",
+      heading: "PIG GAME",
       span: "HTML,CSS, JAVASCRIPT AND REACT",
-      link1: "https://github.com/FaithChinonso/FORM-VALIDATION-WITH-REACT",
-      link2: "https://faithchinonso.github.io/FORM-VALIDATION-WITH-REACT/",
+      link1: "https://github.com/FaithChinonso/Pig-Game",
+      link2: "https://faithchinonso.github.io/Pig-Game/",
     },
     {
       img: "/img/expensetracker.png",
