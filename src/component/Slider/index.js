@@ -4,6 +4,14 @@ import Slide from "../Slide";
 const Slider = () => {
   const inputs = [
     {
+      img: "/img/foodorder.png",
+      alt: "foodorder",
+      heading: "FOOD-ORDER-APP",
+      span: "HTML,CSS, JAVASCRIPT AND React",
+      link1: "https://github.com/FaithChinonso/FOOD-ORDER-APP",
+      link2: "https://faithchinonso.github.io/FOOD-ORDER-APP/",
+    },
+    {
       img: "/img/form.png",
       title: "form",
       heading: "FORM VALIDATION",

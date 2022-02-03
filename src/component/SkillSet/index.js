@@ -78,6 +78,17 @@ const SkillSet = () => {
           <FontAwesomeIcon icon={faGit} className="skill-icon" />
         </a>
       </div>
+      <div className="skillSlide">
+        <h3 className="skill-heading">Redux</h3>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://redux.js.org/"
+          className="skill-links"
+        >
+          <FontAwesomeIcon icon={faReact} className="skill-icon" />
+        </a>
+      </div>
     </div>
   );
 };
