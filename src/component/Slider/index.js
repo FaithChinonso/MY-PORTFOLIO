@@ -71,7 +71,7 @@ const Slider = () => {
       link1: "https://github.com/FaithChinonso/Forkify",
       link2: "https://faithchinonso.github.io/Forkify/",
     },
-    {ç
+    {
       img: "/img/mapty.png",
       alt: "mapty",
       heading: "MAPTY",
