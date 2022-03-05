@@ -4,20 +4,12 @@ import Slide from "../Slide";
 const Slider = () => {
   const inputs = [
     {
-      img: "/img/foodorder.png",
-      alt: "foodorder",
-      heading: "FOOD-ORDER-APP",
-      span: "HTML,CSS, JAVASCRIPT AND React",
-      link1: "https://github.com/FaithChinonso/FOOD-ORDER-APP",
-      link2: "https://faithchinonso.github.io/FOOD-ORDER-APP/",
-    },
-    {
-      img: "/img/form.png",
-      title: "form",
-      heading: "FORM VALIDATION",
-      span: "HTML,CSS, JAVASCRIPT AND REACT",
-      link1: "https://github.com/FaithChinonso/FORM-VALIDATION-WITH-REACT",
-      link2: "https://faithchinonso.github.io/FORM-VALIDATION-WITH-REACT/",
+      img: "/img/shopFay.png",
+      alt: "fayshop",
+      heading: "SHOPFAY WEBSITE",
+      span: "HTML,CSS, JAVASCRIPT,React AND REDUX",
+      link2: "https://faithchinonso.github.io/MINI-SHOPPING-APP",
+      link1: "https://github.com/FaithChinonso/MINI-SHOPPING-APP",
     },
     {
       img: "/img/natour.png",
@@ -27,14 +19,7 @@ const Slider = () => {
       link1: "https://github.com/FaithChinonso/NATOUR",
       link2: "https://faithchinonso.github.io/NATOUR/",
     },
-    {
-      img: "/img/nexter.png",
-      alt: "nexter",
-      heading: "NEXTER PROJECT (UDEMY)",
-      span: "HTML,CSS AND SASS",
-      link1: "https://github.com/FaithChinonso/NEXTER",
-      link2: "https://faithchinonso.github.io/NEXTER/",
-    },
+
     {
       img: "/img/scitylana.png",
       alt: "scitylana",
@@ -44,12 +29,12 @@ const Slider = () => {
       link2: "https://faithchinonso.github.io/Scitylana/",
     },
     {
-      img: "/img/piggame.png",
-      alt: "form",
-      heading: "PIG GAME",
-      span: "HTML,CSS, JAVASCRIPT AND REACT",
-      link1: "https://github.com/FaithChinonso/Pig-Game",
-      link2: "https://faithchinonso.github.io/Pig-Game/",
+      img: "/img/foodorder.png",
+      alt: "foodorder",
+      heading: "FOOD-ORDER-APP",
+      span: "HTML,CSS, JAVASCRIPT AND React",
+      link1: "https://github.com/FaithChinonso/FOOD-ORDER-APP",
+      link2: "https://faithchinonso.github.io/FOOD-ORDER-APP/",
     },
     {
       img: "/img/expensetracker.png",
@@ -59,6 +44,25 @@ const Slider = () => {
       link1: "https://github.com/FaithChinonso/EXPENSE-TRACKER",
       link2: "https://faithchinonso.github.io/EXPENSE-TRACKER/",
     },
+
+    {
+      img: "/img/nexter.png",
+      alt: "nexter",
+      heading: "NEXTER PROJECT (UDEMY)",
+      span: "HTML,CSS AND SASS",
+      link1: "https://github.com/FaithChinonso/NEXTER",
+      link2: "https://faithchinonso.github.io/NEXTER/",
+    },
+
+    {
+      img: "/img/piggame.png",
+      alt: "form",
+      heading: "PIG GAME",
+      span: "HTML,CSS, JAVASCRIPT AND REACT",
+      link1: "https://github.com/FaithChinonso/Pig-Game",
+      link2: "https://faithchinonso.github.io/Pig-Game/",
+    },
+
     {
       img: "/img/forkify.png",
       alt: "forkify",
@@ -67,7 +71,7 @@ const Slider = () => {
       link1: "https://github.com/FaithChinonso/Forkify",
       link2: "https://faithchinonso.github.io/Forkify/",
     },
-    {
+    {ç
       img: "/img/mapty.png",
       alt: "mapty",
       heading: "MAPTY",
@@ -78,19 +82,20 @@ const Slider = () => {
     {
       img: "/img/bankistapp.png",
       alt: "bankistapp",
-      heading: "BANKIST APP",
+      heading:
+        "BANKIST APP (username:fu, password:1111, use to log into the app)",
       span: "HTML,CSS AND JAVASCRIPT",
       link1: "https://github.com/FaithChinonso/Bankist-App",
       link2: "https://faithchinonso.github.io/Bankist-App/",
     },
-    {
-      img: "/img/bankistwebsite.png",
-      alt: "bankistwebsite",
-      heading: "BANKIST WEBSITE",
-      span: "HTML,CSS AND JAVASCRIPT",
-      link1: "https://github.com/FaithChinonso/Bankist-Website",
-      link2: "https://faithchinonso.github.io/Bankist-Website/",
-    },
+    // {
+    //   img: "/img/bankistwebsite.png",
+    //   alt: "bankistwebsite",
+    //   heading: "BANKIST WEBSITE",
+    //   span: "HTML,CSS AND JAVASCRIPT",
+    //   link1: "https://github.com/FaithChinonso/Bankist-Website",
+    //   link2: "https://faithchinonso.github.io/Bankist-Website/",
+    // },
     {
       img: "/img/piggame.png",
       alt: "piggame",
@@ -182,6 +187,30 @@ const Slider = () => {
         link1={inputs[9].link1}
         link2={inputs[9].link2}
       />
+      <Slide
+        img={inputs[10].img}
+        title={inputs[10].title}
+        heading={inputs[10].heading}
+        span={inputs[10].span}
+        link1={inputs[10].link1}
+        link2={inputs[10].link2}
+      />
+      {/* <Slide
+        img={inputs[11].img}
+        title={inputs[11].title}
+        heading={inputs[11].heading}
+        span={inputs[11].span}
+        link1={inputs[11].link1}
+        link2={inputs[12].link2}
+      />
+      <Slide
+        img={inputs[12].img}
+        title={inputs[12].title}
+        heading={inputs[12].heading}
+        span={inputs[12].span}
+        link1={inputs[12].link1}
+        link2={inputs[12].link2}
+      /> */}
     </div>
   );
 };
