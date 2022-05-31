@@ -89,6 +89,30 @@ const SkillSet = () => {
           <FontAwesomeIcon icon={faReact} className="skill-icon" />
         </a>
       </div>
+      <div className="skillSlide">
+        <h3 className="skill-heading">Typescript</h3>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.typescriptlang.org/"
+          className="skill-links"
+          s
+        >
+          <FontAwesomeIcon icon={faJs} className="skill-icon" />
+          {/* <img src="/img/TYPESCRIPT.png" className="skill-icon" /> */}
+        </a>
+      </div>
+      <div className="skillSlide">
+        <h3 className="skill-heading">Tailwind CSS</h3>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://tailwindcss.com/"
+          className="skill-links"
+        >
+          <FontAwesomeIcon icon={faCss3} className="skill-icon" />
+        </a>
+      </div>
     </div>
   );
 };

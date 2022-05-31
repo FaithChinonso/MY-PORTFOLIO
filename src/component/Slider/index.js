@@ -4,6 +4,14 @@ import Slide from "../Slide";
 const Slider = () => {
   const inputs = [
     {
+      img: "/img/todo.png",
+      alt: "Todo App",
+      heading: "JUSTdoIT",
+      span: "A TODO APP BUILT WITH HTML,Tailwind CSS,JAVASCRIPT, TYPECSRIPT, CONTEXT API ",
+      link1: "https://github.com/FaithChinonso/TODO-APP",
+      link2: "",
+    },
+    {
       img: "/img/shopFay.png",
       alt: "fayshop",
       heading: "SHOPFAY WEBSITE",
@@ -11,23 +19,7 @@ const Slider = () => {
       link2: "https://faithchinonso.github.io/MINI-SHOPPING-APP",
       link1: "https://github.com/FaithChinonso/MINI-SHOPPING-APP",
     },
-    {
-      img: "/img/natour.png",
-      alt: "natour",
-      heading: "NATOUR PRJECT (UDEMY)",
-      span: "HTML,CSS AND SASS",
-      link1: "https://github.com/FaithChinonso/NATOUR",
-      link2: "https://faithchinonso.github.io/NATOUR/",
-    },
 
-    {
-      img: "/img/scitylana.png",
-      alt: "scitylana",
-      heading: "SCITYLANA WEBSITE",
-      span: "HTML,CSS AND JAVASCRIPT ",
-      link1: "https://github.com/FaithChinonso/Scitylana",
-      link2: "https://faithchinonso.github.io/Scitylana/",
-    },
     {
       img: "/img/foodorder.png",
       alt: "foodorder",
@@ -44,41 +36,32 @@ const Slider = () => {
       link1: "https://github.com/FaithChinonso/EXPENSE-TRACKER",
       link2: "https://faithchinonso.github.io/EXPENSE-TRACKER/",
     },
-
     {
-      img: "/img/nexter.png",
-      alt: "nexter",
-      heading: "NEXTER PROJECT (UDEMY)",
-      span: "HTML,CSS AND SASS",
-      link1: "https://github.com/FaithChinonso/NEXTER",
-      link2: "https://faithchinonso.github.io/NEXTER/",
+      img: "/img/scitylana.png",
+      alt: "scitylana",
+      heading: "SCITYLANA WEBSITE",
+      span: "HTML,CSS AND JAVASCRIPT ",
+      link1: "https://github.com/FaithChinonso/Scitylana",
+      link2: "https://faithchinonso.github.io/Scitylana/",
     },
 
-    {
-      img: "/img/piggame.png",
-      alt: "form",
-      heading: "PIG GAME",
-      span: "HTML,CSS, JAVASCRIPT AND REACT",
-      link1: "https://github.com/FaithChinonso/Pig-Game",
-      link2: "https://faithchinonso.github.io/Pig-Game/",
-    },
+    // {
+    //   img: "/img/piggame.png",
+    //   alt: "form",
+    //   heading: "PIG GAME",
+    //   span: "HTML,CSS, JAVASCRIPT AND REACT",
+    //   link1: "https://github.com/FaithChinonso/Pig-Game",
+    //   link2: "https://faithchinonso.github.io/Pig-Game/",
+    // },
 
-    {
-      img: "/img/forkify.png",
-      alt: "forkify",
-      heading: "FORKIFY",
-      span: "HTML,CSS, JAVASCRIPT AND API",
-      link1: "https://github.com/FaithChinonso/Forkify",
-      link2: "https://faithchinonso.github.io/Forkify/",
-    },
-    {
-      img: "/img/mapty.png",
-      alt: "mapty",
-      heading: "MAPTY",
-      span: "HTML,CSS, JAVASCRIPT AND API",
-      link1: "https://github.com/FaithChinonso/MAPTY",
-      link2: "https://faithchinonso.github.io/MAPTY/",
-    },
+    // {
+    //   img: "/img/mapty.png",
+    //   alt: "mapty",
+    //   heading: "MAPTY",
+    //   span: "HTML,CSS, JAVASCRIPT AND API",
+    //   link1: "https://github.com/FaithChinonso/MAPTY",
+    //   link2: "https://faithchinonso.github.io/MAPTY/",
+    // },
     {
       img: "/img/bankistapp.png",
       alt: "bankistapp",
@@ -96,14 +79,6 @@ const Slider = () => {
     //   link1: "https://github.com/FaithChinonso/Bankist-Website",
     //   link2: "https://faithchinonso.github.io/Bankist-Website/",
     // },
-    {
-      img: "/img/piggame.png",
-      alt: "piggame",
-      heading: "PIG GAME",
-      span: "HTML,CSS AND JAVASCRIPT",
-      link1: "https://github.com/FaithChinonso/Pig-Game",
-      link2: "https://faithchinonso.github.io/Pig-Game/",
-    },
   ];
   return (
     <div className="slider">
@@ -155,7 +130,7 @@ const Slider = () => {
         link1={inputs[5].link1}
         link2={inputs[5].link2}
       />
-      <Slide
+      {/* <Slide
         img={inputs[6].img}
         title={inputs[6].title}
         heading={inputs[6].heading}
@@ -194,7 +169,7 @@ const Slider = () => {
         span={inputs[10].span}
         link1={inputs[10].link1}
         link2={inputs[10].link2}
-      />
+      /> */}
       {/* <Slide
         img={inputs[11].img}
         title={inputs[11].title}
