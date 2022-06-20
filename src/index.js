@@ -2,19 +2,19 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
 import ProjectPage from "./component/Pages/Projects";
 import SkillPage from "./component/Pages/Skills";
 
 ReactDOM.render(
-  <BrowserRouter>
+  <Router>
     <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="/projects" element={<ProjectPage />} />
-      <Route path="/skills" element={<SkillPage />} />
+      <Route exact path="/" element={<App />} />
+      <Route exact path="/projects" element={<ProjectPage />} />
+      <Route exact path="/skills" element={<SkillPage />} />
     </Routes>
-  </BrowserRouter>,
+  </Router>,
 
   document.getElementById("root")
 );

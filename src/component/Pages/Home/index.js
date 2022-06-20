@@ -2,7 +2,6 @@ import React from "react";
 import "./style.css";
 import Footer from "../../Sections/Footer";
 import Header from "../../Sections/Header";
-import ProjectPage from "../Projects";
 
 const HomePage = () => {
   // const openProjectsHandler = () => {
@@ -15,8 +14,8 @@ const HomePage = () => {
         <div className="profile-body_text">
           <h1>
             <span className="profile-body_highlight">Hi, I'm Faith.</span> A
-            FrontEnd Developer based in Lagos, Nigeria. Currently looking to
-            obtain a challenging IT internship
+            Self-taught FrontEnd Developer based in Lagos, Nigeria. I'm open to
+            colaborate on projects that require my skills
           </h1>
         </div>
       </div>

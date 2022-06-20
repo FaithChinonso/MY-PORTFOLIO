@@ -27,7 +27,7 @@
 .footer-list {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .footer-list li {
   list-style: none;
@@ -47,6 +47,20 @@
     padding: 1rem;
   }
   .footer p {
-    font-size: 1rem;
+    font-size: 1.3rem;
+  }
+  .footer-list {
+    width: 50%;
+  }
+}
+@media (max-width: 600px) {
+  .footer {
+    padding-bottom: 2rem;
+  }
+  .footer-list {
+    width: 100%;
+  }
+  .footer-icon {
+    font-size: 1.5rem;
   }
 }
