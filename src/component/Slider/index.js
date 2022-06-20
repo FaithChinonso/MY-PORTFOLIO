@@ -4,15 +4,23 @@ import Slide from "../Slide";
 const Slider = () => {
   const inputs = [
     {
+      img: "/img/justdoitt.png",
+      alt: "Todo App",
+      heading: "JUSTdoIT",
+      span: "A TODO APP BUILT WITH HTML,CSS,JAVASCRIPT, TYPESCRIPT, REACT ",
+      link1: "https://github.com/FaithChinonso/justdoit",
+      link2: "https://thriving-custard-8be762.netlify.app",
+    },
+    {
       img: "/img/todo.png",
       alt: "Todo App",
       heading: "JUSTdoIT",
-      span: "A TODO APP BUILT WITH HTML,Tailwind CSS,JAVASCRIPT, TYPECSRIPT, CONTEXT API ",
+      span: "A TODO APP BUILT WITH HTML,Tailwind CSS,JAVASCRIPT, REACT, TYPESCRIPT, CONTEXT API ",
       link1: "https://github.com/FaithChinonso/TODO-APP",
       link2: "",
     },
     {
-      img: "/img/shopFay.png",
+      img: "/img/shopfayy.png",
       alt: "fayshop",
       heading: "SHOPFAY WEBSITE",
       span: "HTML,CSS, JAVASCRIPT,React AND REDUX",
@@ -129,6 +137,14 @@ const Slider = () => {
         span={inputs[5].span}
         link1={inputs[5].link1}
         link2={inputs[5].link2}
+      />
+      <Slide
+        img={inputs[6].img}
+        title={inputs[6].title}
+        heading={inputs[6].heading}
+        span={inputs[6].span}
+        link1={inputs[6].link1}
+        link2={inputs[6].link2}
       />
       {/* <Slide
         img={inputs[6].img}
